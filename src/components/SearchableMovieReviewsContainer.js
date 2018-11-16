@@ -27,7 +27,7 @@ class SearchableMovieReviewsContainer extends Component {
       return(
         <div className="searchable-movie-reviews">
           <form onSubmit={this.handleSubmit}>
-          <input onChange={this.handleSearchChange}
+          <input onChange={this.handleSearchChange} />
           <button type="submit">Submit</button>
           </form>
       )
