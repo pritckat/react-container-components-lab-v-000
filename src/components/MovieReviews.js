@@ -7,6 +7,7 @@ const MovieReview = (
   return(
     <div key={headline} className="review">
       <header>
-        <a className="review-link"
+        <a className="review-link" href={link.url}>{headline}</a>
+      </header>
   )
 }
